@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -37,11 +37,11 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -69,6 +69,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -80,17 +82,24 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -128,6 +137,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -137,8 +147,9 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -192,11 +203,56 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "c38c6b95-1ee5-460e-8cf6-93f927c82e76": {
+      "type": "slider",
+      "blocks": {
+        "1751e0d5-6333-4f33-9e87-7ff9a0d3a194": {
+          "type": "slide",
+          "settings": {
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "feee07c2-bf69-4950-8350-faee64934b4c": {
+          "type": "slide",
+          "settings": {
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "03175db9-537b-4753-9d68-cc0a4411a832": {
+          "type": "slide",
+          "settings": {
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1751e0d5-6333-4f33-9e87-7ff9a0d3a194",
+        "feee07c2-bf69-4950-8350-faee64934b4c",
+        "03175db9-537b-4753-9d68-cc0a4411a832"
+      ],
+      "settings": {
+        "slide_height": "adapt",
+        "text_size": "medium",
+        "text_alignment": "center center",
+        "show_overlay": true,
+        "auto": false,
+        "speed": 5
       }
     }
   },
@@ -206,6 +262,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "c38c6b95-1ee5-460e-8cf6-93f927c82e76"
   ]
 }
