@@ -212,40 +212,6 @@
     },
     "c38c6b95-1ee5-460e-8cf6-93f927c82e76": {
       "type": "slider",
-      "blocks": {
-        "1751e0d5-6333-4f33-9e87-7ff9a0d3a194": {
-          "type": "slide",
-          "settings": {
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "feee07c2-bf69-4950-8350-faee64934b4c": {
-          "type": "slide",
-          "settings": {
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "03175db9-537b-4753-9d68-cc0a4411a832": {
-          "type": "slide",
-          "settings": {
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1751e0d5-6333-4f33-9e87-7ff9a0d3a194",
-        "feee07c2-bf69-4950-8350-faee64934b4c",
-        "03175db9-537b-4753-9d68-cc0a4411a832"
-      ],
       "settings": {
         "slide_height": "adapt",
         "text_size": "medium",
