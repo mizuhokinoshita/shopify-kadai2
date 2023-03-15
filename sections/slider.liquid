@@ -1,4 +1,5 @@
 <h1>スライダー</h1>
+
 <style>
 .swiper-container{
     max-height: 100vh;
@@ -7,7 +8,7 @@
 .swiper-slide{
     position: relative;
 }
-  .swiper-slide img{
+.swiper-slide img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -25,12 +26,12 @@
     background-color: rgba(204,204,204,0.8);
 }
 .swiper-slide .slide-content{
-      position: absolute;
+    position: absolute;
     top: 50%;
     padding: 20px;
-  }
+}
 @media only screen and (max-width: 750px) {
-.swiper-slide .slide-content{
+    .swiper-slide .slide-content{
         padding: 0px;
     }
 }
@@ -40,11 +41,11 @@
     text-align: center;
 }
 .swiper-slide .slide-content.left{
-   left: 0%;
+    left: 0%;
     transform: translateX(0%) translateY(-50%);
     text-align: left;
 }
-  .swiper-slide .slide-content.right{
+.swiper-slide .slide-content.right{
     right: 0%;
     transform: translateX(0%) translateY(-50%);
     text-align: right;
@@ -59,7 +60,7 @@
 .slideshow--small {
   height: 175px; 
 }
-  @media only screen and (min-width: 750px) {
+@media only screen and (min-width: 750px) {
     .slideshow--small{
       height: 475px; 
     } 
@@ -107,7 +108,7 @@
     background-color: red;
     color: #fff;
     text-decoration: none;
-  }
+}
 @media only screen and (max-width: 750px) {
     .slideshow__btn{
         display: inline-block;
@@ -116,6 +117,9 @@
     }
  }
  </style>
+
+
+ 
 
  <div class="swiper-container slideshow--small">
    <div class="swiper-wrapper">
