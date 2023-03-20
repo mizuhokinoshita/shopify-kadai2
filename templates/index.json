@@ -222,10 +222,21 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "62a3fcfc-f890-4192-b340-3e938d024174": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eyebrow-pencil-with-box-packaging-mockup_439185-2203.jpg",
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "550d20a0-578e-474f-86b8-4bea12560448"
+        "550d20a0-578e-474f-86b8-4bea12560448",
+        "62a3fcfc-f890-4192-b340-3e938d024174"
       ],
       "settings": {
         "slide_height": "adapt",
