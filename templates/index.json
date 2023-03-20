@@ -212,6 +212,21 @@
     },
     "c38c6b95-1ee5-460e-8cf6-93f927c82e76": {
       "type": "slider",
+      "blocks": {
+        "550d20a0-578e-474f-86b8-4bea12560448": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmetic-lipstick-branding-mockup_439185-9166.jpg",
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "550d20a0-578e-474f-86b8-4bea12560448"
+      ],
       "settings": {
         "slide_height": "adapt",
         "text_size": "medium",
