@@ -114,6 +114,46 @@
   >
     {%- for block in section.blocks -%}
       <style>
+        .slider-other-menu{
+          position: absolute;
+          bottom: 10px;
+          transform: translateX(50%);
+          right: 50%;
+          left: auto;
+          width: 151px;
+          height: 44px;
+          background-color: rgba(0,0,0,.4);
+          color: rgba(255,255,255,.5);
+          z-index: 1;
+      }
+      .swiper-pagination-clickable .swiper-pagination-bullet{
+          margin: -4px 10px;
+      }
+      .swiper-pagination {
+          top: 4px;
+          left: 32px;
+      }
+      .swiper-pagination-bullet-active{
+          background: #fff;
+      }
+      .swiper-pagination-bullet{
+          background: rgb(255,255,255);
+      }
+      .swiper-button-prev, .swiper-button-next{
+          display: block !important; 
+          bottom: -10px;
+          top: auto;
+          color: rgba(255,255,255,.5);
+      }
+      .swiper-button-next:after, .swiper-button-prev:after{
+          font-size:15px;
+      }
+      .swiper-button-prev{
+          left: calc(50% - 125px / 2);
+      }
+      .swiper-button-next{
+          right: calc(50% - 155px / 2);
+      }
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
