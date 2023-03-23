@@ -185,55 +185,27 @@
             <div class="slide-content center">
                 <h1 class="{% if section.settings.text_size == 'large' %} mega-title--large{% endif %}">{{ block.settings.slide_title }}</h1>
                 <p class="{% if section.settings.text_size == 'large' %} mega-desc--large{% endif %}">{{ block.settings.subheading }}</p>
-
-                {%- if block.settings.button_label != blank and block.settings.button_link != + blank -%}
+                {%- if block.settings.button_label != blank and block.settings.button_link != blank -%}
                 <a href="{{ block.settings.button_link }}" class="slideshow__btn">{{ block.settings.button_label | escape }}</a>
             {%- endif -%}
 
             </div>
         </div>
     {%- endfor -%}
-     <div class="swiper-slide">
-        {% if section.settings.show_overlay == true %}
-                <div class="slide-overlay">
-                </div>
-            {% endif %}
-            {%- if block.settings.image != blank -%}
-                <img src="{{ block.settings.image | img_url: '2049x' }}"  loading="lazy">
-            {%- else -%}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-            {%- endif -%}
-            <div class="slide-content 
-                {% if section.settings.text_alignment == 'center center' %} center {% endif %}
-                {% if section.settings.text_alignment == 'left center' %} left {% endif %}
-                {% if section.settings.text_alignment == 'right center' %} right {% endif %}
-                ">
-                <h2 class="mega-title--large">Slide Title 2</h2>
-                <p class="mega-desc--large">Lorem ipsum dolor sit amet, +consectetur</p>
-                <a href="#" class="btn slideshow__btn">ボタンのラベル+ </a>
-            </div>
-     </div>
-     <div class="swiper-slide">
-                <div class="slide-overlay">
-                </div>
-                {%- if block.settings.image != blank -%}
-                    <img src="{{ block.settings.image | img_url: '2049x' }}"  loading="lazy">
-                {%- else -%}
-                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                {%- endif -%}
-            <div class="slide-content center">
-                <h2 class="mega-title--large">Slide Title 3</h2>
-              <p class="mega-desc--large">Lorem ipsum dolor sit amet, +consectetur</p>
-           <a href="#" class="btn slideshow__btn">ボタンのラベル</a>
-            </div>
-     </div>
    </div>
+   <div class="slider-other-menu">
+	<!-- 前ページボタン -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-pagination"></div>
+	<!-- 次ページボタン -->
+	<div class="swiper-button-next"></div>
+ </div>
  </div>
  <script type="text/javascript">  
   const swiper = new Swiper('.swiper-container', {
     // 自動再生（true:自動再生する、false:自動再生しない）
      autoplay: {
-         delay: delay: {{ section.settings.speed }} * 1000,
+         delay: {{ section.settings.speed }} * 1000,
      },
     // スライド方向（水平方向）
     direction: 'horizontal',
