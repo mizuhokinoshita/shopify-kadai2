@@ -212,6 +212,43 @@
     },
     "c38c6b95-1ee5-460e-8cf6-93f927c82e76": {
       "type": "slider",
+      "blocks": {
+        "ed253229-3d0b-4421-b8b2-622c5e8b49a5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eye-makeup-products-scene-mockup_1332-4653.jpg",
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "f532cc82-98ba-45eb-8183-2ce8dc2ff237": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmetic-lipstick-branding-mockup_439185-9166.jpg",
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "0c2845a3-18de-4e50-8325-909cba925b13": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eyebrow-pencil-with-box-packaging-mockup_439185-2203.jpg",
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ed253229-3d0b-4421-b8b2-622c5e8b49a5",
+        "f532cc82-98ba-45eb-8183-2ce8dc2ff237",
+        "0c2845a3-18de-4e50-8325-909cba925b13"
+      ],
       "settings": {
         "slide_height": "adapt",
         "text_size": "medium",
